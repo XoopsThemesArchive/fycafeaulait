@@ -1,0 +1,574 @@
+
+@charset "EUC-JP";
+
+/*-------------------------------------------------------*/
+/* FY Cafeaulait CSS                                     */
+/* Update: 2005/02/05                                    */
+/* Author: Broom ( http://www.theme4u.net/ )             */
+/*-------------------------------------------------------*/
+
+
+/* SITE BODY Style ------------------------------------- */
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #cdb471;
+	color: #592222;
+	font-size: 80%;
+	}
+
+table,td,tr{
+	font-size: 100%;
+	}
+
+th{
+	background-color: #592222;
+	color: #efe7c6;
+	padding:5px;
+	}
+
+th a:link, th a:hover, th a:visited, th a:active{
+	color: #efe7c6;
+	}
+
+ul {
+	margin: 2px; padding: 2px;
+	list-style: decimal inside;
+	text-align: left;
+	}
+
+li {
+	margin-left: 2px;
+	list-style: square inside;
+	}
+
+
+/* Link Style ------------------------------------------ */
+
+a{
+	color: #804B30;
+	text-decoration: none;
+	}
+
+a:hover{
+	color: #A6613F;
+	text-decoration: underline;
+	}
+
+
+/* General text ---------------------------------------- */
+
+.genmed {
+	font-size : 10px;
+	}
+
+.gensmall {
+	font-size : 11px;
+	}
+
+
+/* Site Wrap Style ------------------------------------- */
+
+.top_left{
+	background: #efe7c6 url(images/top_left.gif) no-repeat;
+	width: 8px;
+	height: 8px;
+	}
+
+.top_bg{
+	background-image : url(images/top_bg.gif);
+	background-repeat : repeat-x;
+	}
+
+.top_right{
+	background: #efe7c6 url(images/top_right.gif) no-repeat;
+	width: 10px;
+	height: 8px;
+	}
+
+.left_bg{
+	background-image : url(images/left_bg.gif);
+	background-repeat : repeat-y;
+	width: 8px;
+	}
+
+.right_bg{
+	background-image : url(images/right_bg.gif);
+	background-repeat : repeat-y;
+	width: 10px;
+	}
+
+.bottom_left{
+	background: #efe7c6 url(images/bottom_left.gif) no-repeat;
+	width: 8px;
+	height: 8px;
+	}
+
+.bottom_bg{
+	background-image : url(images/bottom_bg.gif);
+	background-repeat : repeat-x;
+	}
+
+.bottom_right{
+	background: #efe7c6 url(images/bottom_right.gif) no-repeat;
+	width: 10px;
+	height: 8px;
+	}
+
+
+/* logo Outline ---------------------------------------- */
+
+.logo_bgcolor{
+	background: #592222;
+	}
+
+.logo_top_left{
+	background: #592222 url(images/logo_top_left.gif) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.logo_left_bg{
+	background: #592222 url(images/logo_left_bg.gif) repeat-y;
+	width: 7px;
+	}
+
+.logo_top_right{
+	background: #592222 url(images/logo_top_right.gif) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.logo_right_bg{
+	background: #592222 url(images/logo_right_bg.gif) repeat-y;
+	width: 7px;
+	}
+
+.logo_bottom_left{
+	background: #592222 url(images/logo_bottom_left.gif) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.logo_bottom_right{
+	background: #592222 url(images/logo_bottom_right.gif) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.logo_bottom_bg{
+	background: #592222 url(images/logo_bottom_bg.gif) repeat-x;
+	width: 7px;
+	height: 7px;
+	}
+
+
+/* Header Search --------------------------------------- */
+
+#searchengine{
+	float: right;
+	width: auto;
+	padding: 3px 5px;
+	margin: 0;
+	}
+
+#searchengine form{
+	margin: 0;
+	}
+
+#searchengine input{
+	border: 1px solid #efe7c6;
+	background: #592222;
+	color: #efe7c6;
+	font-size: 13px;
+	margin: 0;
+	vertical-align: middle;
+	}
+
+#searchengine .inputstyle{
+	padding: 2px;
+	margin: 0 3px;
+	}
+
+
+/* Copyright Style ------------------------------------- */
+
+.copyright{
+	font-size: 90%;
+	}
+
+
+/* MENU Content Style ---------------------------------- */
+
+.in_top_left{
+	background: #f9f5e8 url(images/in_top_left.gif) no-repeat;
+	width: 6px;
+	height: 6px;
+	}
+
+.in_top_right{
+	background: #f9f5e8 url(images/in_top_right.gif) no-repeat;
+	width: 6px;
+	height: 6px;
+	}
+
+.in_bottom_left{
+	background: #f9f5e8 url(images/in_bottom_left.gif) no-repeat;
+	width: 6px;
+	height: 6px;
+	}
+
+.in_bottom_right{
+	background: #f9f5e8 url(images/in_bottom_right.gif) no-repeat;
+	width: 6px;
+	height: 6px;
+	}
+
+.in_left_bg{
+	background: #f7f5ee;
+	}
+
+.in_right_bg{
+	background: #f7f5ee;
+	}
+
+.in_bottom_bg{
+	background-image : url(images/in_bottom_bg.gif);
+	background-repeat : repeat-x;
+	}
+
+.in_bgcolor{
+	background: #f7f5ee;
+	}
+
+.menuHeader{
+	padding:2px;
+	}
+
+.titlebar{
+	background: #592222;
+	font-weight: bold;
+	color: #efe7c6;
+	height: 20px;
+	line-height: 20px;
+	}
+
+.titlebarleft{
+	float: left;
+	background: #592222 url(images/title_bg_left.gif) center no-repeat;
+	width: 20px;
+	height: 20px;
+	}
+
+.titlebarright{
+	float: right;
+	background: #592222 url(images/title_bg_right.gif) center no-repeat;
+	width: 10px;
+	height: 20px;
+	}
+
+.menuContent{
+	color: #706736;
+	line-height:145%;
+	padding: 5px 0px 0.8em 0px;
+	}
+
+.menuContent table{
+	width: 100%;
+	}
+
+#contentleft{
+	vertical-align: top;
+	width: 50%;
+	padding-right: 3px;
+	}
+
+#contentright{
+	vertical-align: top;
+	width: 50%;
+	padding-left: 3px;
+	}
+
+/* XOOPS Menu Style ------------------------------------ */
+
+td#mainmenu {
+	line-height: 0.9em;
+	}
+
+td#mainmenu a.menuTop {
+	background: url(images/menuDot.gif) no-repeat left;
+	text-decoration: none;
+	padding-left: 20px;	}
+
+td#mainmenu .menuTop:hover{
+	background: url(images/menuHover.gif) no-repeat left;
+	color: #a53f3f;
+	}
+
+td#mainmenu a.menuMain {
+	background: url(images/menuDot.gif) no-repeat left;
+	text-decoration: none;
+	padding-left: 20px;
+	}
+
+td#mainmenu .menuMain:hover{
+	background: url(images/menuHover.gif) no-repeat left;
+	color: #a53f3f;
+	}
+
+td#mainmenu a.menuSub {
+	line-height: 0.6em;
+	font-size: 80%;
+	padding-left: 20px;
+	}
+
+td#usermenu {
+	line-height: 0.9em;
+	}
+
+td#usermenu a {
+	background: url(images/menuDot.gif) no-repeat left;
+	text-decoration: none;
+	padding-left: 20px;
+	}
+
+td#usermenu a:hover {
+	background: url(images/menuHover.gif) no-repeat left;
+	color: #a53f3f;
+	}
+
+td#usermenu a.menuTop {
+	}
+
+td#usermenu a.highlight {
+	background: url(images/menuHover.gif) no-repeat left;
+	color: #a53f3f;
+	font-weight: bold;
+	}
+
+
+/* XOOPS News Style ------------------------------------ */
+
+.item {
+	border: 1px solid #b6aa69;
+	}
+
+.itemHead {
+	background: #592222;
+	padding: 4px 8px 4px 4px;
+	margin: 1px;
+	color: #ffffff;
+	font-weight: bold;
+	}
+
+.itemTitle a:link, .itemTitle a:hover, .itemTitle a:visited, .itemTitle a:active {
+	color: #efe7c6;
+	}
+
+.itemInfo {
+	background: #744b2e;
+	color: #efe7c6;
+	padding: 3px 5px 3px 5px;
+	margin: 1px;
+	text-align: right;
+	}
+
+.itemInfo a:link, .itemInfo a:hover, .itemInfo a:visited, .itemInfo a:active {
+	color: #efe7c6;
+	}
+
+.itemPoster {	}
+
+.itemPostDate {	}
+
+.itemStats {	}
+
+.itemBody {
+	background: #f7f2e1;
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	line-height: 1.5em;
+	}
+
+.itemText {
+	}
+
+.itemText:first-letter {
+	font-size: 133%;
+	font-weight: bold;
+	}
+
+.itemFoot {
+	background: #744b2e;
+	color: #efe7c6;
+	padding: 3px 5px 3px 5px;
+	margin: 1px;
+	text-align: right;
+	}
+
+.itemFoot a:link, .itemFoot a:hover, .itemFoot a:visited, .itemFoot a:active {
+	color: #efe7c6;
+	}
+
+.itemAdminLink {	}
+
+.itemPermaLink {	}
+
+
+/* Newbb Style ----------------------------------------- */
+
+.outer{
+	width:100%;
+	border: 1px solid #b6aa69;
+	}
+
+.head, tr.head td{
+	background-color: #744b2e;
+	font-weight: bold;
+	color: #efe7c6;
+	padding: 3px 5px;
+	}
+
+.head a:link, .head a:hover, .head a:visited, .head a:active{
+	font-weight: bold;
+	color: #efe7c6;
+	}
+
+.even, tr.even td{
+	background-color: #f1e9cd;
+	vertical-align: top;
+	padding: 5px 3px;
+	}
+
+.odd,tr.odd td{
+	background-color: #f7f2e1;
+	vertical-align: top;
+	padding: 5px 3px;
+	}
+
+.foot, tr.foot td{
+	background-color: #744b2e;
+	color: #efe7c6;
+	padding: 3px 5px;
+	}
+
+.foot a:link, .foot a:hover, .foot a:visited, .foot a:active{
+	color: #efe7c6;
+	}
+
+.comTitle {
+	border-bottom: 1px solid #592222;
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 3px;
+	}
+.comText {
+	line-height: 1.5em;
+	padding: 2px;
+	padding-bottom: 1.0em;
+	}
+
+.comUserStat {
+	font-size: 10px;
+	font-weight:bold;
+	border: 1px solid #d0c99f;
+	background-color: #f7f5ee;
+	margin: 2px; padding: 2px;
+	}
+
+.comUserStatCaption {
+	font-weight: normal;
+	}
+
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	color: #2F5376;
+	font-weight:bold;
+	font-size: 10px;
+	}
+
+.comUserRank {
+	margin: 2px;
+	}
+.comUserRankText {
+	font-size: 10px;
+	font-weight:bold;
+	}
+
+.comUserRankImg {
+	border: 0;
+	}
+
+.comUserName {
+	}
+
+.comUserImg {
+	margin: 2px;
+	}
+
+.comDate {
+	font-weight: normal;
+	font-style: italic;
+	font-size: smaller
+	}
+
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	}
+
+
+/* XOOPS Quote & Code Style ---------------------------- */
+
+div.xoopsCode {
+	background: #FFFFFF url(images/code_bg.gif) top right no-repeat;
+	border: solid #592222;
+	border-width: 1px 1px 1px 5px;
+	font-family: "Courier New", Courier, monospace;
+	padding: 0px 1.0em;
+	}
+
+div.xoopsQuote {
+	background: #FFFFFF url(images/quote_bg.gif) top right no-repeat;
+	border: solid #592222;
+	border-width: 1px 1px 1px 5px;
+	padding: 0px;
+	}
+
+
+/* XOOPS Error Msg Style ------------------------------- */
+
+div.errorMsg {
+	background-color: #FFCCCC;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold; padding: 10px;
+	}
+
+div.confirmMsg {
+	background-color: #DDFFDF;
+	color: #136C99; text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold; padding: 10px;
+	}
+
+div.resultMsg {
+	background-color : #CCCCCC;
+	color: #333333; text-align: center;
+	border-top: 1px solid silver;
+	border-left: 1px solid silver;
+	font-weight: bold;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	padding: 10px;
+	}
+
+
+
